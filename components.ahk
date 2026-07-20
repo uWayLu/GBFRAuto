@@ -1,8 +1,9 @@
 #Requires AutoHotkey v2.0
 
-#Include matcher/matcher.ahk
-#Include gui/panel.ahk
 #Include utils.ahk
+#Include matcher/matcher.ahk
+#Include lang/current.ahk
+#Include gui/panel.ahk
 
 ; const
 

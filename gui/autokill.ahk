@@ -14,36 +14,36 @@ class PanelAutoKill {
     chain := 0
 
     Attach(g, x, y) {
-        g.Add("GroupBox", "Section w120 h220 x" x " y" y, "自動戰鬥相關")
+        g.Add("GroupBox", "Section w120 h220 x" x " y" y, Lang["grpAutoKill"])
 
-        g.Add("CheckBox", "xs9 ys20", "總開關")
+        g.Add("CheckBox", "xs9 ys20", Lang["chkAll"])
             .OnEvent("Click", (cb, *) => (this.all := cb.Value))
 
-        g.Add("CheckBox", , "連發普攻")
+        g.Add("CheckBox", , Lang["chkAaa"])
             .OnEvent("Click", (cb, *) => (this.aaa := cb.Value))
 
-        g.Add("CheckBox", , "連發重攻")
+        g.Add("CheckBox", , Lang["chkSeya"])
             .OnEvent("Click", (cb, *) => (this.seya := cb.Value))
 
-        g.Add("CheckBox", , "按住格擋")
+        g.Add("CheckBox", , Lang["chkGuard"])
             .OnEvent("Click", (cb, *) => (this.guard := cb.Value))
 
-        g.Add("CheckBox", , "按住索敵")
+        g.Add("CheckBox", , Lang["chkAim"])
             .OnEvent("Click", (cb, *) => (this.aim := cb.Value))
 
-        g.Add("CheckBox", , "按住前進")
+        g.Add("CheckBox", , Lang["chkForward"])
             .OnEvent("Click", (cb, *) => (this.forward := cb.Value))
 
-        g.Add("CheckBox", , "自動使用技能")
+        g.Add("CheckBox", , Lang["chkSkills"])
             .OnEvent("Click", (cb, *) => (this.skills := cb.Value))
 
-        g.Add("CheckBox", , "自動連鎖")
+        g.Add("CheckBox", , Lang["chkChain"])
             .OnEvent("Click", (cb, *) => (this.r := cb.Value))
 
-        g.Add("CheckBox", , "自動開奧")
+        g.Add("CheckBox", , Lang["chkR"])
             .OnEvent("Click", (cb, *) => (this.g := cb.Value))
 
-        g.Add("CheckBox", , "自動接奧")
+        g.Add("CheckBox", , Lang["chkG"])
             .OnEvent("Click", (cb, *) => (this.chain := cb.Value))
     }
 }
