@@ -18,6 +18,7 @@ M.Run()
 
 Init() {
     SetKeyDelay -1
+    CoordMode "Pixel", "Client"
 
     Refresh()
 
