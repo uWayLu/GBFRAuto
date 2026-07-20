@@ -1,46 +1,46 @@
 #Requires AutoHotkey v2.0
 
-; 日本語語系
+; 日本語
 Lang := Map(
     ; window.ahk
-    "grpWindow", "ゲームウィンドウ設定",
-    "lblGameName", "ウィンドウ名：",
-    "lblWindowSize", "ウィンドウサイズ：",
+    "grpWindow", "ゲームウィンドウ",
+    "lblGameName", "ウィンドウ：",
+    "lblWindowSize", "サイズ：",
 
     ; skip.ahk
-    "grpSkip", "リザルトスキップ",
-    "chkMission", "ミッションリザルトをスキップ",
-    "chkBack", "報酬確認をスキップ",
-    "chkCheck", "自動でコンティニュー",
+    "grpSkip", "スキップ",
+    "chkMission", "リザルト",
+    "chkBack", "報酬",
+    "chkCheck", "コンテ",
 
     ; autokill.ahk
-    "grpAutoKill", "自動戦闘設定",
+    "grpAutoKill", "自動戦闘",
     "chkAll", "マスタートリガー",
-    "chkAaa", "通常攻撃連射",
-    "chkSeya", "強攻撃連射",
-    "chkGuard", "ガード押し続ける",
-    "chkAim", "ロックオン押し続ける",
-    "chkForward", "前進押し続ける",
-    "chkSkills", "スキル自動使用",
+    "chkAaa", "通常連打",
+    "chkSeya", "強攻連打",
+    "chkGuard", "ガード維持",
+    "chkAim", "ロックオン維持",
+    "chkForward", "前進維持",
+    "chkSkills", "スキル自動",
     "chkChain", "チェーン自動",
-    "chkR", "奥義自動発動",
-    "chkG", "奥義自動受付",
+    "chkR", "奥義自動",
+    "chkG", "奥義受付",
 
     ; sell.ahk
-    "grpSell", "因子/祝福自動売却",
-    "lblRounds", "ラウンド数：",
-    "lblRoundsHint", "0で無限",
+    "grpSell", "因子・祝福売却",
+    "lblRounds", "周回数：",
+    "lblRoundsHint", "0 = 無制限",
 
     ; hotkey.ahk
-    "grpHotkey", "ホットキー設定",
+    "grpHotkey", "ホットキー",
     "lblReset", "リセット",
     "lblExit", "強制終了",
     "lblSellSigils", "因子売却",
     "lblSellCharms", "祝福売却",
 
     ; panel.ahk
-    "barInit", "コンティニュー 0 | 報酬確認 0 | ミッション 0",
+    "barInit", "コンティニュー 0 | 報酬 0 | リザルト 0",
     "barContinue", "コンティニュー",
-    "barBack", "報酬確認",
-    "barMission", "ミッション",
+    "barBack", "報酬",
+    "barMission", "リザルト"
 )

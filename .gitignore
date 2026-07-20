@@ -2,7 +2,9 @@
 AHKGBFR
 
 test.ahk
-assets_jp/tmp/
+lang/current.ahk
+*/tmp/
+assets/*
 
 *.exe
 *.zip
