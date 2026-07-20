@@ -7,15 +7,15 @@ class PanelSkip {
     check := 1
 
     Attach(g, x, y) {
-        g.Add("GroupBox", "Section w120 h85 x" x " y" y, "跳过结算相关")
+        g.Add("GroupBox", "Section w120 h85 x" x " y" y, "跳過結算相關")
 
-        g.Add("CheckBox", "Checked xs9 ys20", "跳过任务结算")
+        g.Add("CheckBox", "Checked xs9 ys20", "跳過任務結算")
             .OnEvent("Click", (cb, *) => (this.mission := cb.Value))
 
-        g.Add("CheckBox", "Checked", "跳过奖励确认")
+        g.Add("CheckBox", "Checked", "跳過獎勵確認")
             .OnEvent("Click", (cb, *) => (this.back := cb.Value))
 
-        g.Add("CheckBox", "Checked", "自动继续挑战")
+        g.Add("CheckBox", "Checked", "自動繼續挑戰")
             .OnEvent("Click", (cb, *) => (this.check := cb.Value))
     }
 }

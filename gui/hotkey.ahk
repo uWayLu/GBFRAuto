@@ -27,19 +27,19 @@ class PanelHotkey {
     }
 
     Attach(g, x, y) {
-        g.Add("GroupBox", "Section w120 h150 x" x " y" y, "键位编辑")
+        g.Add("GroupBox", "Section w120 h150 x" x " y" y, "鍵位編輯")
 
         this.reset.g := g.Add("Hotkey", "xs9 ys25 w40")
-        g.Add("Text", "xs55 ys30", "重置脚本")
+        g.Add("Text", "xs55 ys30", "重置腳本")
 
         this.exit.g := g.Add("Hotkey", "xs9 ys55 w40")
-        g.Add("Text", "xs55 ys60", "强退脚本")
+        g.Add("Text", "xs55 ys60", "強退腳本")
 
         this.sell_sigils.g := g.Add("Hotkey", "xs9 ys85 w40")
-        g.Add("Text", "xs55 ys90", "卖因子")
+        g.Add("Text", "xs55 ys90", "賣因子")
 
         this.sell_charms.g := g.Add("Hotkey", "xs9 ys115 w40")
-        g.Add("Text", "xs55 ys120", "卖祝福")
+        g.Add("Text", "xs55 ys120", "賣祝福")
     }
 
     BindReset(cb, initial) {

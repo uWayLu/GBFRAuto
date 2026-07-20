@@ -26,7 +26,7 @@ class Panel {
         this.hotkey.Attach(this.root, 10, 90)
         this.autokill.Attach(this.root, 270, 9)
 
-        this.bar := this.root.Add("StatusBar", , "继续挑战 0 | 奖励确认 0 | 任务结算 0")
+        this.bar := this.root.Add("StatusBar", , "繼續挑戰 0 | 獎勵確認 0 | 任務結算 0")
     }
 
     Show() {
@@ -46,7 +46,7 @@ class Panel {
     }
 
     UpdateReport(check := 0, back := 0, mission := 0) {
-        this.UpdateBar("继续挑战 " check " | 奖励确认 " back " | 任务结算 " mission)
+        this.UpdateBar("繼續挑戰 " check " | 獎勵確認 " back " | 任務結算 " mission)
     }
 
     UpdateBar(info) {
